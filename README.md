@@ -6,5 +6,5 @@
 | `netstat` | Linux | Network statistics |
 | `arp -a` | Linux | Network devices recently communicated |
 | `nmap -sn 192.168.1.0/24` | Linux | Devices on `192.168.1.0/24` subnet |
-| `nslookup example.com` | Linux | DNS data |
+| `nslookup example.com` | Linux | DNS data for `example.com` |
 | `strace -c ls` | Linux | System calls data for `ls` |

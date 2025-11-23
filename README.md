@@ -9,4 +9,4 @@
 | `nslookup example.com` | Linux | DNS data for `example.com` |
 | `strace -c ls` | Linux | System calls data for `ls` |
 | `curl parrot.live` | Linux | Shows a parrot dancing (`parrot.live` is a web address) |
-| `echo -n -e 's' /| nc -u -w 2 <IP> <PORT> /| hexdump -C` | ASE protocol mostly for game servers. Port is usually main port + 123 |
+| `echo -n -e 's' &#124; nc -u -w 2 <IP> <PORT> &#124; hexdump -C` | ASE protocol mostly for game servers. Port is usually main port + 123 |

@@ -3,6 +3,7 @@
 ## Favorites
 
 | Command | Enviroments | Description |
+|--- |--- |--- |
 | git rebase -i \<COMMIT HASH\> | Git | Git squash (change pick to squash were wanted) |
 | docker run -it -p \<EXTERNAL PORT>:\<INTERNAL PORT> --rm \<IMAGE> | Linux | Docker run temporary (--rm) an image |
 | which \<BINARY> | Linux | Where is a binary |

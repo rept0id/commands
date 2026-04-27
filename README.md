@@ -24,4 +24,4 @@
 | passwd | Linux | Change password |
 | docker run -it -p \<EXTERNAL PORT>:\<INTERNAL PORT> --rm \<IMAGE> | Linux | Docker run temporary an image |
 | which \<BINARY> | Linux | Where is a binary |
-| apt get install openssh-server | Linux | Install openssh server (Debian-based) |
+| apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) |

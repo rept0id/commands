@@ -10,6 +10,11 @@
 | apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) |
 | git reset --hard \<COMMIT HASH\> | Git | Git reset |
 | nmap -sn 192.168.1.0/24 | Linux | Devices on 192.168.1.0/24 subnet |
+| python -m venv venv | Python | Python virtual environment |
+| python3 -m http.server | Python | Python HTTP server |
+| source venv/bin/activate | Linux | Python activate virtual environment (Linux) |
+| .\venv\Scripts\activate | Windows | Python activate virtual environment (Windows) |
+| pip freeze > requirements.txt | Python | Python PIP modules list to files |
 
 ## More
 
@@ -32,3 +37,4 @@
 | host -t MX \<ADDRESS\> | Linux | Get info about email of address |
 | host -t NS \<ADDRESS\> | Linux | Get info about nameservers of address |
 | passwd | Linux | Change password |
+| sudo apt --fix-broken install | Linux | Fix missing dependencies (APT / Debian-based) 

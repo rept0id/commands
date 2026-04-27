@@ -22,6 +22,6 @@
 | host -t MX \<ADDRESS\> | Linux | Get info about email of address |
 | host -t NS \<ADDRESS\> | Linux | Get info about nameservers of address |
 | passwd | Linux | Change password |
-| docker run -it -p \<EXTERNAL PORT>:\<INTERNAL PORT> --rm \<IMAGE> | Linux | Docker run temporary an image |
+| docker run -it -p \<EXTERNAL PORT>:\<INTERNAL PORT> --rm \<IMAGE> | Linux | Docker run temporary (--rm) an image |
 | which \<BINARY> | Linux | Where is a binary |
 | apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) |

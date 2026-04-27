@@ -1,5 +1,15 @@
 # commands
 
+## Favorites
+
+| git rebase -i \<COMMIT HASH\> | Git | Git squash (change pick to squash were wanted) |
+| docker run -it -p \<EXTERNAL PORT>:\<INTERNAL PORT> --rm \<IMAGE> | Linux | Docker run temporary (--rm) an image |
+| which \<BINARY> | Linux | Where is a binary |
+| apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) |
+| git reset --hard \<COMMIT HASH\> | Git | Git reset |
+
+## All
+
 | Command | Enviroments | Description |
 |--- |--- |--- |
 | traceroute \<ADDRESS\> | Linux | Network path to {web addr} | 
@@ -16,12 +26,8 @@
 | nslookup \<URL\> \<DNS server\> | Linux | Query DNS server for a URL |
 | dig @\<DNS server\> \<URL\> | Linux | Query DNS server for a URL |
 | git log | Git | Git log |
-| git rebase -i \<COMMIT HASH\> | Git | Git squash (change pick to squash were wanted) |
-| git reset --hard \<COMMIT HASH\> | Git | Git reset |
 | git checkout -b \<NEW BRANCH NAME\> | Git | Git new branch |
 | host -t MX \<ADDRESS\> | Linux | Get info about email of address |
 | host -t NS \<ADDRESS\> | Linux | Get info about nameservers of address |
 | passwd | Linux | Change password |
-| docker run -it -p \<EXTERNAL PORT>:\<INTERNAL PORT> --rm \<IMAGE> | Linux | Docker run temporary (--rm) an image |
 | which \<BINARY> | Linux | Where is a binary |
-| apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) |

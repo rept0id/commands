@@ -15,6 +15,7 @@
 | source venv/bin/activate | Linux | Python activate virtual environment (Linux) |
 | .\venv\Scripts\activate | Windows | Python activate virtual environment (Windows) |
 | pip freeze > requirements.txt | Python | Python PIP modules list to files |
+| pip install -r requirements.txt | Python | Install requirements |
 
 ## More
 

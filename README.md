@@ -15,9 +15,9 @@
 | ip neigh | Linux | Get IP neighbours |
 | nslookup \<URL\> \<DNS server\> | Linux | Query DNS server for a URL |
 | dig @\<DNS server\> \<URL\> | Linux | Query DNS server for a URL |
-| git log | Linux | Git log |
-| git rebase -i \<COMMIT HASH\> | Linux | Git squash (change pick to squash were wanted) |
-| git reset --hard \<COMMIT HASH\> | Linux | Git reset |
-| git checkout -b \<NEW BRANCH NAME\> | Linux | Git new branch |
+| git log | Git | Git log |
+| git rebase -i \<COMMIT HASH\> | Git | Git squash (change pick to squash were wanted) |
+| git reset --hard \<COMMIT HASH\> | Git | Git reset |
+| git checkout -b \<NEW BRANCH NAME\> | Git | Git new branch |
 | host -t MX \<ADDRESS\> | Linux | Get info about email of address |
 | host -t NS \<ADDRESS\> | Linux | Get info about nameservers of address |

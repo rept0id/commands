@@ -6,7 +6,16 @@
 | netstat | Linux | Network statistics |
 | arp -a | Linux | Network devices recently communicated |
 | nmap -sn 192.168.1.0/24 | Linux | Devices on 192.168.1.0/24 subnet |
-| nslookup \<ADDRESS\> | Linux | DNS data for {web addr} |
 | strace -c ls | Linux | System calls data for ls |
 | curl parrot.live | Linux | Shows a parrot dancing (parrot.live is a web address) |
 | echo -n -e 's' &#124; nc -u -w 2 \<IP\> \<PORT\> &#124; hexdump -C | Linux | ASE protocol mostly for game servers. Port is usually main port + 123 |
+| docker system prune -a --volumes | Linux | Docker remove everything, even volumes |
+| docker stats | Linux | Docker resource monitor |
+| ip a | Linux | Get IP interfaces |
+| ip neigh | Linux | Get IP neighbours |
+| nslookup \<URL\> \<DNS server\> | Linux | Query DNS server for a URL |
+| dig @\<DNS server\> \<URL\> | Linux | Query DNS server for a URL |
+| git log | Linux | Git log |
+| git rebase -i \<COMMIT HASH\> | Linux | Git squash (change pick to squash were wanted) |
+| git reset --hard \<COMMIT HASH\> | Linux | Git reset |
+| git checkout -b \<NEW BRANCH NAME\> | Linux | Git new branch |

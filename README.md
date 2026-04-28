@@ -23,6 +23,8 @@
 | host -t NS \<ADDRESS\> | Linux | Get info about nameservers of address | |
 | echo -n -e 's' &#124; nc -u -w 2 \<IP\> \<PORT\> &#124; hexdump -C | Linux | ASE protocol mostly for game servers. Port is usually main port + 123 | |
 | nmap -sn 192.168.1.0/24 | Linux | Devices on 192.168.1.0/24 subnet | * |
+| busybox httpd -f -p 80 | Linux | HTTP server, Busybox | |
+| python3 -m http.server | Python | HTTP server, Python | |
 
 ## Docker
 

@@ -47,10 +47,24 @@
 
 | Command | Enviroments | Description | Favorite | 
 |--- |--- |--- |--- |
-| git log | Git | Git log |
-| git checkout -b \<NEW BRANCH NAME\> | Git | Git new branch | |
-| git rebase -i \<COMMIT HASH\> | Git | Git squash (change pick to squash were wanted) | * |
-| git reset --hard \<COMMIT HASH\> | Git | Git reset | * |
+| git init | Git | Init | |
+| git remote -v | Git | View remote | |
+| git remote set-url origin git@github.com:rept0id/commands.git | Git | Set remote (SSH) | * |
+| git clone git@github.com:rept0id/commands.git | Git | Clone (SSH) | * |
+| git remote set-url origin https://github.com/rept0id/commands.git | Git | Set remote (HTTP) | * |
+| git clone https://github.com/rept0id/commands.git | Git | Clone (HTTP) | * |
+| git checkout -b \<NEW BRANCH NAME\> | Git | New branch | * |
+| git log | Git | Log | |
+| git status | Git | Status (tracked/untracked changes e.t.c) | * |
+| git checkout -p . | Git | View all changes and get asked if you want them | * |
+| git checkout -p <PATH> | Git | View file or directory changes and get asked if you want them | * |
+| git rebase -i \<COMMIT HASH\> | Git | Squash (change pick to squash were wanted) | * |
+| git reset --hard \<COMMIT HASH\> | Git | Reset | * |
+| git add . | Git | Add all, don't use it | |
+| git add <PATH> | Git | Add specific file or directory | |
+| git commit -m <MESSAGE> | Git | Commit (new) | |
+| git commit --amend | Git | Amend to previous commit (correction) | * |
+| git push | Git | Push | |
 
 ## System
 

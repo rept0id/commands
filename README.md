@@ -23,6 +23,8 @@
 | host -t NS \<ADDRESS\> | Linux | Get info about nameservers of address | |
 | echo -n -e 's' &#124; nc -u -w 2 \<IP\> \<PORT\> &#124; hexdump -C | Linux | ASE protocol mostly for game servers. Port is usually main port + 123 | |
 | nmap -sn 192.168.1.0/24 | Linux | Devices on 192.168.1.0/24 subnet | * |
+| busybox httpd -f -p 80 | Linux | HTTP server, Busybox | |
+| python3 -m http.server | Python | HTTP server, Python | |
 
 ## Docker
 
@@ -48,22 +50,22 @@
 | Command | Enviroments | Description | Favorite | 
 |--- |--- |--- |--- |
 | git init | Git | Init | |
-| git remote -v | Git | View remote | |
+| git remote -v | Git | View which is the remote | |
 | git remote set-url origin git@github.com:rept0id/commands.git | Git | Set remote (SSH) | * |
 | git clone git@github.com:rept0id/commands.git | Git | Clone (SSH) | * |
-| git remote set-url origin https://github.com/rept0id/commands.git | Git | Set remote (HTTP) | * |
-| git clone https://github.com/rept0id/commands.git | Git | Clone (HTTP) | * |
+| git remote set-url origin https://github.com/rept0id/commands.git | Git | Set remote (HTTP) | |
+| git clone https://github.com/rept0id/commands.git | Git | Clone (HTTP) | |
 | git checkout -b \<NEW BRANCH NAME\> | Git | New branch | * |
-| git log | Git | Log | |
+| git log | Git | Log | * |
 | git status | Git | Status (tracked/untracked changes e.t.c) | * |
 | git checkout -p . | Git | View all changes and get asked if you want them | * |
-| git checkout -p <PATH> | Git | View file or directory changes and get asked if you want them | * |
+| git checkout -p \<PATH\> | Git | View file or directory changes and get asked if you want them | * |
 | git rebase -i \<COMMIT HASH\> | Git | Squash (change pick to squash were wanted) | * |
 | git reset --hard \<COMMIT HASH\> | Git | Reset | * |
 | git add . | Git | Add all, don't use it | |
-| git add <PATH> | Git | Add specific file or directory | |
-| git commit -m <MESSAGE> | Git | Commit (new) | |
-| git commit --amend | Git | Amend to previous commit (correction) | * |
+| git add \<PATH\> | Git | Add specific file or directory | |
+| git commit -m \<MESSAGE\> | Git | Commit (new) | |
+| git commit --amend | Git | Amend to previous commit (correction); You'll need to force push | * |
 | git push | Git | Push | |
 
 ## System

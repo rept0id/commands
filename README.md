@@ -25,6 +25,7 @@
 | nmap -sn 192.168.1.0/24 | Linux | Devices on 192.168.1.0/24 subnet | * |
 | busybox httpd -f -p 3000 | Linux | HTTP server, Busybox; Port is optional; -f is for foreground, else it'll be daemon | * |
 | python3 -m http.server 3000 | Python | HTTP server, Python; Port is optional | * |
+| openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout \<NAME\>.key -out \<NAME\>.crt -subj "/CN=\<ADDRESS\>" -addext "subjectAltName=IP:\<ADDRESS\>" | Linux | Generate self-signed certificate | * |
 
 ## Docker
 

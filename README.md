@@ -11,7 +11,7 @@
 | Command | Enviroments | Description | Favorite | 
 |--- |--- |--- |--- |
 | traceroute \<ADDRESS\> | Linux | Network path to {web addr} | * | 
-| traceroute -A \<ADDRESS\> | Linux | Network path to {web addr}, with (BGP) autonomous systems | * | 
+| traceroute -A \<ADDRESS\> | Linux | Network path to {web addr}, with autonomous systems (BGP) | * | 
 | netstat | Linux | Network statistics | |
 | arp -a | Linux | Network devices recently communicated | * |
 | ip a | Linux | Get IP interfaces | |

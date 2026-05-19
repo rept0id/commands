@@ -52,10 +52,10 @@
 |--- |--- |--- |--- |
 | git init | Git | Init | |
 | git remote -v | Git | View which is the remote | |
-| git remote set-url origin git@github.com:rept0id/commands.git | Git | Set remote (SSH) | * |
-| git clone git@github.com:rept0id/commands.git | Git | Clone (SSH) | * |
-| git remote set-url origin https://github.com/rept0id/commands.git | Git | Set remote (HTTP) | |
-| git clone https://github.com/rept0id/commands.git | Git | Clone (HTTP) | |
+| git remote set-url origin git@github.com:\<REPOSITORY OWNER\>/<REPOSITORY\>.git | Git | Set remote (SSH) | * |
+| git clone git@github.com:\<REPOSITORY OWNER\>/<REPOSITORY\>.git | Git | Clone (SSH) | * |
+| git remote set-url origin https://github.com/\<REPOSITORY OWNER\>/<REPOSITORY\>.git | Git | Set remote (HTTP) | |
+| git clone https://github.com/\<REPOSITORY OWNER\>/<REPOSITORY\>.git | Git | Clone (HTTP) | |
 | git checkout -b \<NEW BRANCH NAME\> | Git | New branch | * |
 | git log | Git | Log | * |
 | git status | Git | Status (tracked/untracked changes e.t.c) | * |
@@ -78,3 +78,4 @@
 | sudo apt --fix-broken install | Linux | Fix missing dependencies (APT / Debian-based) | * |
 | which \<BINARY> | Linux | Where is a binary | * |
 | apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) | * |
+| ssh-keygen -t ed25519 -C "\<EMAIL\>" | Linux | Generate SSH key | * |

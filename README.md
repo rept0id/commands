@@ -77,6 +77,22 @@
 | strace -c ls | Linux | System calls data for ls | * |
 | passwd | Linux | Change password | * |
 | sudo apt --fix-broken install | Linux | Fix missing dependencies (APT / Debian-based) | * |
-| which \<BINARY> | Linux | Where is a binary | * |
+| which \<BINARY\> | Linux | Where is a binary | * |
 | apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) | * |
 | ssh-keygen -t ed25519 -C "\<EMAIL\>" | Linux | Generate SSH key | * |
+
+## Databases
+
+| Command | Enviroments | Description | Favorite | 
+|--- |--- |--- |--- |
+| sqlite3 | Linux | SQLite launch shell | |
+| sqlite3 \<DB PATH\> | Linux | SQLite launch shell | |
+| sqlite3 \<DB PATH\> "PRAGMA journal_mode=WAL;" | Linux | SQLite launch shell, WAL mode | |
+| sqlite3 \<DB PATH\> "\<QUERY\>" | Linux | SQLite execute single query | |
+| .shell \<COMMAND\> | SQLite3 | Execute system's shell command | |
+| .timer ON | SQLite3 | Enable timer for queries | |
+| .headers ON | SQLite3 | Enable showing headers for tables | |
+| .tables | SQLite3 | Show tables | |
+| .schema | SQLite3 | Show schema | |
+| .schema \<TABLE\> | SQLite3 | Show schema for table | |
+

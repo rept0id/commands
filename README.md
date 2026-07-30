@@ -97,4 +97,5 @@
 | .tables | SQLite3 | Show tables | |
 | .schema | SQLite3 | Show schema | |
 | .schema \<TABLE\> | SQLite3 | Show schema for table | |
+| sqlite3_analyzer \<DB PATH\> | Linux | SQLite analysis | * |
 

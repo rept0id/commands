@@ -80,6 +80,8 @@
 | which \<BINARY\> | Linux | Where is a binary | * |
 | apt get install openssh-server | Linux | Install openssh server (APT / Debian-based) | * |
 | ssh-keygen -t ed25519 -C "\<EMAIL\>" | Linux | Generate SSH key | * |
+| screen -S \<NAME\> | Linux | Opens a shell session that you can attach again later | * |
+| screen -r \<NAME\> | Linux | Open a previously created with `screen` shell session | * |
 
 ## Databases
 
